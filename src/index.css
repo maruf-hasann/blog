@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5 {
+  color:#080b12 ;
+}
+p {
+  color:#2d2f35 ;
+}
+input.hero_input {
+    border: none;
+    background: #e8e8ec;
+    border-radius: 100px;
+
+    width: 335px;
+    height: 47px;
+    padding-left: 33px;
+}
+button.relative.right-9.top-2 {
+    background: #f9c345;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 8px;
+    position: relative;
+    left: -47px;
+}
+.my_container{
+  @apply px-4 pb-9 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10
+}
+.btn {
+  @apply bg-[#f9c345] font-semibold px-7 py-2 rounded-full
+}
+.card_img {
+  width: 420px;
+}
